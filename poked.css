@@ -1,0 +1,64 @@
+html{
+    font-family: 'VT323', monospace;
+}
+
+#fondo{
+    height: 1080px;
+    /*  background-image: url('math.png'); */
+     /* background-size: 100px 100px; */
+   /*   background-repeat: repeat-x; */
+     background: #0ef url('img/bak.jpg') no-repeat center;
+}
+#pokede{
+    width: 800px;
+    height: 800px;
+    background-image: url(./img/pokedex1.png);
+    background-size: 800px 800px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 500px;
+}
+#pokeImg{
+    position: relative;
+    left: 135px;
+    top: 275px;
+}
+
+#pokeName{
+    background-color: rgb(4, 165, 111);
+    width: 130px;
+    height: 80px;
+    position: absolute;
+    top: 656px;
+    left: 105px;
+    border-radius: 0.5rem;
+}
+article input{
+    color: rgb(4, 65, 44);
+    font-family: 'VT323', monospace;
+    font-size: 17pt;
+}
+#tipo{
+    background-color: rgb(4, 165, 111);
+    width: 120px;
+    height:60px;
+    position: absolute;
+    top: 670px;
+    left: 482px;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 25pt;
+    color: rgb(4, 65, 44);
+}
+#pokeid{
+    background-color: rgb(4, 165, 111);
+    width: 120px;
+    height:60px;
+    position: absolute;
+    top: 670px;
+    left: 622px;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 25pt;
+    color: rgb(4, 65, 44);
+}
